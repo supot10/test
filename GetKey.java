@@ -8,6 +8,7 @@ public class GetKey {
 		System.out.println("กรุณาป้อน รัศมี");
 		int x = keyB.nextInt();
 		double a = cycle(x);
+        show(4);
 		System.out.println("พท ที่ได้ = "+a);
 	}
 	static double cycle(int r){
@@ -15,6 +16,11 @@ public class GetKey {
 		area = 3.141 *r*r ;
 		return area;
 	}
+    static void show (int x){
+        x =x*4;
+    System.out.println("พท total ="+);
+    
+    }
 	
 
 }
